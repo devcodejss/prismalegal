@@ -649,9 +649,5 @@ if (contactForm) {
       `mailto:info@prismalegal.com.py` +
       `?subject=${encodeURIComponent(asunto || 'Consulta — Prisma Legal')}` +
       `&body=${encodeURIComponent(body)}`;
-
-    const success = document.getElementById('cfSuccess');
-    if (success) { success.style.display = 'block'; }
-    contactForm.reset();
   });
 }
