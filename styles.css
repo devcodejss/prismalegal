@@ -1307,6 +1307,8 @@ button { font: inherit; cursor: pointer; }
 .contact__form {
   display: grid;
   gap: 24px;
+  min-width: 0;
+  width: 100%;
 }
 .field { display: flex; flex-direction: column; gap: 8px; }
 .field-row {
@@ -1334,6 +1336,9 @@ button { font: inherit; cursor: pointer; }
   border-radius: 0;
   transition: border-color .35s var(--ease);
   outline: none;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
 }
 .field textarea { resize: vertical; min-height: 100px; }
 .field input::placeholder,
@@ -1567,6 +1572,8 @@ button { font: inherit; cursor: pointer; }
   .contact__grid,
   .contact__grid--no-form { grid-template-columns: 1fr; }
   .contact__map { min-height: 280px; }
+  .contact__aside { height: auto; }
+  .field-row { grid-template-columns: 1fr; gap: 16px; }
   .footer__cols { grid-template-columns: 1fr; gap: 32px; }
   .footer__bottom { flex-direction: column; align-items: flex-start; }
   .practice__grid { grid-template-columns: repeat(2, 1fr); }

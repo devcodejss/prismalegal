@@ -466,9 +466,7 @@
         <h2 class="section__title section__title--sm" data-i18n="sectors-title">Industrias que <em>servimos</em>.</h2>
       </div>
       <p class="section__intro" data-i18n="sectors-intro">
-        Trabajamos en interfaces donde la regulación, la tecnología y el capital
-        se cruzan — y donde la diferencia entre un buen y un mal abogado se mide
-        en horas de trabajo.
+        Trabajamos en asuntos donde la precisión jurídica, el criterio regulatorio y la velocidad de ejecución hacen la diferencia.
       </p>
     </div>
 
@@ -641,7 +639,7 @@
         <div class="team__body">
           <span class="team__role" data-i18n="t3-role">Of Counsel</span>
           <h3 class="team__name">Mario A.<br/>Paz Castaing</h3>
-          <p class="team__bio" data-i18n="t3-bio">Asesor senior en estructuración corporativa y gobierno corporativo. Más de tres décadas en derecho comercial y bancario en Paraguay.</p>
+          <p class="team__bio" data-i18n="t3-bio">Experto en derecho del trabajo y seguridad social. Asesoramiento a empleadores en fiscalizaciones y estructuraciones de personal.</p>
         </div>
       </article>
 
@@ -652,7 +650,7 @@
         <div class="team__body">
           <span class="team__role" data-i18n="t4-role">Of Counsel</span>
           <h3 class="team__name">Raúl Adolfo<br/>Alderete Quintana</h3>
-          <p class="team__bio" data-i18n="t4-bio">Foco en derecho laboral, seguridad social y tributario. Asesora a empleadores en fiscalizaciones y reestructuraciones de personal.</p>
+          <p class="team__bio" data-i18n="t4-bio">Experto en derecho de seguros. Asesoría en mercado de seguros. Foco en derecho laboral, seguridad social y tributario. Asesora a empleadores en fiscalizaciones y reestructuraciones de personal.</p>
         </div>
       </article>
     </div>
@@ -678,7 +676,7 @@
       <h2 class="section__title" data-i18n="contact-title">Conversemos sobre<br/>su <em>próximo</em> mandato.</h2>
     </div>
 
-    <div class="contact__grid contact__grid--no-form">
+    <div class="contact__grid">
 
       <aside class="contact__aside reveal">
 
@@ -711,36 +709,38 @@
 
       </aside>
 
-      <div class="contact__map reveal" style="--d:.1s" aria-label="Ubicación: Asunción, Paraguay">
-        <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
-          <defs>
-            <pattern id="streets" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(28)">
-              <path d="M0 20 H40" stroke="rgba(13,13,13,.08)" stroke-width=".5"/>
-              <path d="M20 0 V40" stroke="rgba(13,13,13,.08)" stroke-width=".5"/>
-            </pattern>
-            <pattern id="streets2" width="80" height="80" patternUnits="userSpaceOnUse" patternTransform="rotate(28)">
-              <path d="M0 40 H80" stroke="rgba(13,13,13,.14)" stroke-width=".8"/>
-              <path d="M40 0 V80" stroke="rgba(13,13,13,.14)" stroke-width=".8"/>
-            </pattern>
-          </defs>
-          <rect width="400" height="300" fill="#EDEAE3"/>
-          <rect width="400" height="300" fill="url(#streets)"/>
-          <rect width="400" height="300" fill="url(#streets2)"/>
-          <path d="M -20 240 C 80 220, 160 260, 240 220 S 380 200, 440 230 L 440 320 L -20 320 Z" fill="rgba(31,58,68,.18)"/>
-          <path d="M -20 240 C 80 220, 160 260, 240 220 S 380 200, 440 230" stroke="rgba(31,58,68,.4)" stroke-width="1" fill="none"/>
-          <g transform="translate(180 130)">
-            <circle r="28" fill="rgba(184,149,74,.12)"/>
-            <circle r="14" fill="rgba(184,149,74,.22)"/>
-            <circle r="5" fill="#B8954A"/>
-            <circle r="5" fill="none" stroke="#B8954A" stroke-width="1">
-              <animate attributeName="r" from="5" to="28" dur="2.4s" repeatCount="indefinite"/>
-              <animate attributeName="opacity" from="1" to="0" dur="2.4s" repeatCount="indefinite"/>
-            </circle>
-          </g>
-          <text x="200" y="115" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#0D0D0D" letter-spacing="2">ASUNCIÓN · PY</text>
-          <text x="200" y="285" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="7" fill="rgba(13,13,13,.5)" letter-spacing="2">RÍO PARAGUAY</text>
-        </svg>
-      </div>
+      <form class="contact__form reveal" id="contactForm" novalidate style="--d:.1s">
+        <div class="field-row">
+          <div class="field">
+            <label for="cf-nombre" data-i18n="form-nombre-l">Nombre</label>
+            <input type="text" id="cf-nombre" name="nombre" placeholder="Su nombre completo" required />
+          </div>
+          <div class="field">
+            <label for="cf-empresa" data-i18n="form-empresa-l">Empresa / Organización</label>
+            <input type="text" id="cf-empresa" name="empresa" placeholder="Opcional" />
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="cf-email" data-i18n="form-email-l">Email</label>
+            <input type="email" id="cf-email" name="email" placeholder="correo@ejemplo.com" required />
+          </div>
+          <div class="field">
+            <label for="cf-telefono" data-i18n="form-tel-l">Teléfono</label>
+            <input type="tel" id="cf-telefono" name="telefono" placeholder="+595 …" />
+          </div>
+        </div>
+        <div class="field">
+          <label for="cf-asunto" data-i18n="form-asunto-l">Asunto</label>
+          <input type="text" id="cf-asunto" name="asunto" placeholder="¿En qué podemos ayudarle?" required />
+        </div>
+        <div class="field">
+          <label for="cf-mensaje" data-i18n="form-mensaje-l">Mensaje</label>
+          <textarea id="cf-mensaje" name="mensaje" rows="5" placeholder="Describa brevemente su consulta…" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary" data-i18n="form-submit">Enviar consulta</button>
+        <p class="contact__success" id="cfSuccess" style="display:none" data-i18n="form-success">Su mensaje fue enviado. Le responderemos a la brevedad.</p>
+      </form>
 
     </div>
   </div>
@@ -782,8 +782,7 @@
         © 2026 Prisma Legal. Todos los derechos reservados.
       </p>
       <p class="footer__credit">
-        <span data-i18n="footer-dev">Desarrollado por</span>
-        <a href="https://devcodejs.com" target="_blank" rel="noopener">DevCodeJs</a>
+        <a href="https://dotik.com.py" target="_blank" rel="noopener" style="font-size:10px;opacity:.45;border:none;padding:0;gap:4px;letter-spacing:.08em;">Dotik</a>
       </p>
     </div>
   </div>

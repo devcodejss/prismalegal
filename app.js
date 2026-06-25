@@ -66,7 +66,7 @@ const translations = {
     'service8-p': 'Marcas, patentes, secretos comerciales y litigios de PI.',
     'sectors-num': '04 — Sectores',
     'sectors-title': 'Industrias que <em>servimos</em>.',
-    'sectors-intro': 'Trabajamos en interfaces donde la regulación, la tecnología y el capital se cruzan — y donde la diferencia entre un buen y un mal abogado se mide en horas de trabajo.',
+    'sectors-intro': 'Trabajamos en asuntos donde la precisión jurídica, el criterio regulatorio y la velocidad de ejecución hacen la diferencia.',
     'sector1': 'Fintech',
     'sector2': 'Seguros',
     'sector3': 'Servicios financieros',
@@ -118,9 +118,9 @@ const translations = {
     't2-role': 'Partner',
     't2-bio': 'Especialista en litigios, arbitraje y derecho regulatorio. Experiencia en disputas comerciales de alto valor y procedimientos sancionatorios. Agente de Marcas.',
     't3-role': 'Of Counsel',
-    't3-bio': 'Asesor senior en estructuración corporativa y gobierno corporativo. Más de tres décadas en derecho comercial y bancario en Paraguay.',
+    't3-bio': 'Experto en derecho del trabajo y seguridad social. Asesoramiento a empleadores en fiscalizaciones y estructuraciones de personal.',
     't4-role': 'Of Counsel',
-    't4-bio': 'Foco en derecho laboral, seguridad social y tributario. Asesora a empleadores en fiscalizaciones y reestructuraciones de personal.',
+    't4-bio': 'Experto en derecho de seguros. Asesoría en mercado de seguros. Foco en derecho laboral, seguridad social y tributario. Asesora a empleadores en fiscalizaciones y reestructuraciones de personal.',
     'silent-tag': 'Áreas de práctica',
     'silent-h': 'Práctica Marítima y Naviera',
     'silent-p': 'Asesoría especializada en derecho marítimo, incluyendo abanderamiento de buques y contratos marítimos de todo tipo.',
@@ -141,6 +141,14 @@ const translations = {
     'footer-social-h': 'Síganos',
     'footer-copy': '© {year} Prisma Legal. Todos los derechos reservados.',
     'footer-dev': 'Desarrollado por',
+    'form-nombre-l': 'Nombre',
+    'form-empresa-l': 'Empresa / Organización',
+    'form-email-l': 'Email',
+    'form-tel-l': 'Teléfono',
+    'form-asunto-l': 'Asunto',
+    'form-mensaje-l': 'Mensaje',
+    'form-submit': 'Enviar consulta',
+    'form-success': 'Su mensaje fue enviado. Le responderemos a la brevedad.',
   },
 
   en: {
@@ -205,7 +213,7 @@ const translations = {
     'service8-p': 'Trademarks, patents, trade secrets and IP litigation.',
     'sectors-num': '04 — Sectors',
     'sectors-title': 'Industries we <em>serve</em>.',
-    'sectors-intro': 'We work at interfaces where regulation, technology and capital intersect — and where the difference between a good and a bad lawyer is measured in hours of work.',
+    'sectors-intro': 'We work on matters where legal precision, regulatory judgment and execution speed make the difference.',
     'sector1': 'Fintech',
     'sector2': 'Insurance',
     'sector3': 'Financial services',
@@ -257,9 +265,9 @@ const translations = {
     't2-role': 'Partner',
     't2-bio': 'Specialist in litigation, arbitration and regulatory law. Experience in high-value commercial disputes and sanctioning procedures. Trademark Agent.',
     't3-role': 'Of Counsel',
-    't3-bio': 'Senior advisor in corporate structuring and corporate governance. Over three decades in commercial and banking law in Paraguay.',
+    't3-bio': 'Expert in labor law and social security. Advisory to employers on labor audits and workforce restructurings.',
     't4-role': 'Of Counsel',
-    't4-bio': 'Focus on labor law, social security and taxation. Advises employers on audits and workforce restructurings.',
+    't4-bio': 'Expert in insurance law. Advisory in the insurance market. Focus on labor law, social security and taxation. Advises employers on audits and workforce restructurings.',
     'silent-tag': 'Practice Areas',
     'silent-h': 'Maritime and Naval Practice',
     'silent-p': 'Specialized advisory in maritime law, including vessel flagging and all types of maritime contracts.',
@@ -280,6 +288,14 @@ const translations = {
     'footer-social-h': 'Follow Us',
     'footer-copy': '© {year} Prisma Legal. All rights reserved.',
     'footer-dev': 'Developed by',
+    'form-nombre-l': 'Name',
+    'form-empresa-l': 'Company / Organization',
+    'form-email-l': 'Email',
+    'form-tel-l': 'Phone',
+    'form-asunto-l': 'Subject',
+    'form-mensaje-l': 'Message',
+    'form-submit': 'Send inquiry',
+    'form-success': 'Your message was sent. We will reply shortly.',
   },
 
   pt: {
@@ -344,7 +360,7 @@ const translations = {
     'service8-p': 'Marcas, patentes, segredos comerciais e litígios de PI.',
     'sectors-num': '04 — Setores',
     'sectors-title': 'Indústrias que <em>servimos</em>.',
-    'sectors-intro': 'Trabalhamos em interfaces onde regulação, tecnologia e capital se cruzam — e onde a diferença entre um bom e um mau advogado se mede em horas de trabalho.',
+    'sectors-intro': 'Trabalhamos em assuntos onde a precisão jurídica, o critério regulatório e a velocidade de execução fazem a diferença.',
     'sector1': 'Fintech',
     'sector2': 'Seguros',
     'sector3': 'Serviços financeiros',
@@ -396,9 +412,9 @@ const translations = {
     't2-role': 'Partner',
     't2-bio': 'Especialista em litígios, arbitragem e direito regulatório. Experiência em disputas comerciais de alto valor e procedimentos sancionatórios. Agente de Marcas.',
     't3-role': 'Of Counsel',
-    't3-bio': 'Consultor sênior em estruturação corporativa e governança corporativa. Mais de três décadas em direito comercial e bancário no Paraguai.',
+    't3-bio': 'Especialista em direito do trabalho e seguridade social. Assessoria a empregadores em fiscalizações e reestruturações de pessoal.',
     't4-role': 'Of Counsel',
-    't4-bio': 'Foco em direito do trabalho, previdência social e tributário. Assessora empregadores em fiscalizações e reestruturações de pessoal.',
+    't4-bio': 'Especialista em direito de seguros. Assessoria no mercado de seguros. Foco em direito do trabalho, previdência social e tributário. Assessora empregadores em fiscalizações e reestruturações de pessoal.',
     'silent-tag': 'Áreas de prática',
     'silent-h': 'Prática Marítima e Naval',
     'silent-p': 'Assessoria especializada em direito marítimo, incluindo arvoragem de embarcações e contratos marítimos de todo tipo.',
@@ -419,6 +435,14 @@ const translations = {
     'footer-social-h': 'Siga-nos',
     'footer-copy': '© {year} Prisma Legal. Todos os direitos reservados.',
     'footer-dev': 'Desenvolvido por',
+    'form-nombre-l': 'Nome',
+    'form-empresa-l': 'Empresa / Organização',
+    'form-email-l': 'Email',
+    'form-tel-l': 'Telefone',
+    'form-asunto-l': 'Assunto',
+    'form-mensaje-l': 'Mensagem',
+    'form-submit': 'Enviar consulta',
+    'form-success': 'Sua mensagem foi enviada. Responderemos em breve.',
   },
 };
 
@@ -597,3 +621,37 @@ document.querySelectorAll('a[href^="#"]').forEach((a) => {
     window.scrollTo({ top, behavior: 'smooth' });
   });
 });
+
+// ============================================================
+//  CONTACT FORM — mailto
+// ============================================================
+const contactForm = document.getElementById('contactForm');
+if (contactForm) {
+  contactForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const nombre   = contactForm.nombre.value.trim();
+    const empresa  = contactForm.empresa.value.trim();
+    const email    = contactForm.email.value.trim();
+    const telefono = contactForm.telefono.value.trim();
+    const asunto   = contactForm.asunto.value.trim();
+    const mensaje  = contactForm.mensaje.value.trim();
+
+    const body = [
+      `Nombre: ${nombre}`,
+      empresa  ? `Empresa: ${empresa}`   : '',
+      `Email: ${email}`,
+      telefono ? `Teléfono: ${telefono}` : '',
+      '',
+      mensaje,
+    ].filter(Boolean).join('\n');
+
+    window.location.href =
+      `mailto:info@prismalegal.com.py` +
+      `?subject=${encodeURIComponent(asunto || 'Consulta — Prisma Legal')}` +
+      `&body=${encodeURIComponent(body)}`;
+
+    const success = document.getElementById('cfSuccess');
+    if (success) { success.style.display = 'block'; }
+    contactForm.reset();
+  });
+}
